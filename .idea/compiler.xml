@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.exam.demo" target="21" />
+      <module name="com.exam.demo.main" target="21" />
+      <module name="com.exam.demo.test" target="21" />
+      <module name="demo" target="21" />
+      <module name="demo.main" target="21" />
+      <module name="demo.test" target="21" />
+      <module name="sample01_Bean2_OtherPackage" target="21" />
+      <module name="sample01_Bean2_OtherPackage.main" target="21" />
+      <module name="sample01_Bean2_OtherPackage.test" target="21" />
+      <module name="sample01_Bean3_Configuration_Bean" target="21" />
+      <module name="sample01_Bean3_Configuration_Bean.main" target="21" />
+      <module name="sample01_Bean3_Configuration_Bean.test" target="21" />
+      <module name="sample01_Bean_RecommendedPackage" target="21" />
+      <module name="sample01_Bean_RecommendedPackage.main" target="21" />
+      <module name="sample01_Bean_RecommendedPackage.test" target="21" />
+      <module name="sample02_DependencyInjection1_Constructer" target="21" />
+      <module name="sample02_DependencyInjection1_Constructer.main" target="21" />
+      <module name="sample02_DependencyInjection1_Constructer.test" target="21" />
+      <module name="sample02_DependencyInjection1_Constructer2_multi" target="21" />
+      <module name="sample02_DependencyInjection1_Constructer2_multi.main" target="21" />
+      <module name="sample02_DependencyInjection1_Constructer2_multi.test" target="21" />
+      <module name="sample02_DependencyInjection1_Constructer3_Qualifer" target="21" />
+      <module name="sample02_DependencyInjection1_Constructer3_Qualifer.main" target="21" />
+      <module name="sample02_DependencyInjection1_Constructer3_Qualifer.test" target="21" />
+      <module name="sample02_DependencyInjection2_Field" target="21" />
+      <module name="sample02_DependencyInjection2_Field.main" target="21" />
+      <module name="sample02_DependencyInjection2_Field.test" target="21" />
+      <module name="sample02_DependencyInjection2_Field2_Qualifer" target="21" />
+      <module name="sample02_DependencyInjection2_Field2_Qualifer.main" target="21" />
+      <module name="sample02_DependencyInjection2_Field2_Qualifer.test" target="21" />
+      <module name="sample03_BeanScope" target="21" />
+      <module name="sample03_BeanScope.main" target="21" />
+      <module name="sample03_BeanScope.test" target="21" />
+      <module name="sample04_PostConstruct_PreDestroy" target="21" />
+      <module name="sample04_PostConstruct_PreDestroy.main" target="21" />
+      <module name="sample04_PostConstruct_PreDestroy.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.exam.demo" options="-parameters" />
+      <module name="com.exam.demo.main" options="-parameters" />
+      <module name="com.exam.demo.test" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo.main" options="-parameters" />
+      <module name="demo.test" options="-parameters" />
+      <module name="sample01_Bean2_OtherPackage" options="-parameters" />
+      <module name="sample01_Bean2_OtherPackage.main" options="-parameters" />
+      <module name="sample01_Bean2_OtherPackage.test" options="-parameters" />
+      <module name="sample01_Bean3_Configuration_Bean" options="-parameters" />
+      <module name="sample01_Bean3_Configuration_Bean.main" options="-parameters" />
+      <module name="sample01_Bean3_Configuration_Bean.test" options="-parameters" />
+      <module name="sample01_Bean_RecommendedPackage" options="-parameters" />
+      <module name="sample01_Bean_RecommendedPackage.main" options="-parameters" />
+      <module name="sample01_Bean_RecommendedPackage.test" options="-parameters" />
+      <module name="sample02_DependencyInjection1_Constructer" options="-parameters" />
+      <module name="sample02_DependencyInjection1_Constructer.main" options="-parameters" />
+      <module name="sample02_DependencyInjection1_Constructer.test" options="-parameters" />
+      <module name="sample02_DependencyInjection1_Constructer2_multi" options="-parameters" />
+      <module name="sample02_DependencyInjection1_Constructer2_multi.main" options="-parameters" />
+      <module name="sample02_DependencyInjection1_Constructer2_multi.test" options="-parameters" />
+      <module name="sample02_DependencyInjection1_Constructer3_Qualifer" options="-parameters" />
+      <module name="sample02_DependencyInjection1_Constructer3_Qualifer.main" options="-parameters" />
+      <module name="sample02_DependencyInjection1_Constructer3_Qualifer.test" options="-parameters" />
+      <module name="sample02_DependencyInjection2_Field" options="-parameters" />
+      <module name="sample02_DependencyInjection2_Field.main" options="-parameters" />
+      <module name="sample02_DependencyInjection2_Field.test" options="-parameters" />
+      <module name="sample02_DependencyInjection2_Field2_Qualifer" options="-parameters" />
+      <module name="sample02_DependencyInjection2_Field2_Qualifer.main" options="-parameters" />
+      <module name="sample02_DependencyInjection2_Field2_Qualifer.test" options="-parameters" />
+      <module name="sample03_BeanScope" options="-parameters" />
+      <module name="sample03_BeanScope.main" options="-parameters" />
+      <module name="sample03_BeanScope.test" options="-parameters" />
+      <module name="sample04_PostConstruct_PreDestroy" options="-parameters" />
+      <module name="sample04_PostConstruct_PreDestroy.main" options="-parameters" />
+      <module name="sample04_PostConstruct_PreDestroy.test" options="-parameters" />
+      <module name="sample05_External_configuration1_value" options="-parameters" />
+      <module name="sample05_External_configuration1_value.main" options="-parameters" />
+      <module name="sample05_External_configuration1_value.test" options="-parameters" />
+      <module name="sample05_external_configuration2_configurationproperties" options="-parameters" />
+      <module name="sample05_external_configuration2_configurationproperties.main" options="-parameters" />
+      <module name="sample05_external_configuration2_configurationproperties.test" options="-parameters" />
+      <module name="sample05_external_configuration2_configurationproperties_Validation" options="-parameters" />
+      <module name="sample05_external_configuration2_configurationproperties_Validation.main" options="-parameters" />
+      <module name="sample05_external_configuration2_configurationproperties_Validation.test" options="-parameters" />
+      <module name="sample06_profile" options="-parameters" />
+      <module name="sample06_profile.main" options="-parameters" />
+      <module name="sample06_profile.test" options="-parameters" />
+      <module name="sample07_DB1_h2_jdbcTemplate" options="-parameters" />
+      <module name="sample07_DB1_h2_jdbcTemplate.main" options="-parameters" />
+      <module name="sample07_DB1_h2_jdbcTemplate.test" options="-parameters" />
+      <module name="sample07_DB2_MySQL_jdbcTemplate" options="-parameters" />
+      <module name="sample07_DB2_MySQL_jdbcTemplate.main" options="-parameters" />
+      <module name="sample07_DB2_MySQL_jdbcTemplate.test" options="-parameters" />
+      <module name="sample07_DB3_MySQL_MyBatis1_Basic" options="-parameters" />
+      <module name="sample07_DB3_MySQL_MyBatis1_Basic.main" options="-parameters" />
+      <module name="sample07_DB3_MySQL_MyBatis1_Basic.test" options="-parameters" />
+      <module name="sample07_DB3_MySQL_MyBatis2_MapperInterface" options="-parameters" />
+      <module name="sample07_DB3_MySQL_MyBatis2_MapperInterface.main" options="-parameters" />
+      <module name="sample07_DB3_MySQL_MyBatis2_MapperInterface.test" options="-parameters" />
+      <module name="sample08_Profile_h2_MySQL_prod_dev" options="-parameters" />
+      <module name="sample08_Profile_h2_MySQL_prod_dev.main" options="-parameters" />
+      <module name="sample08_Profile_h2_MySQL_prod_dev.test" options="-parameters" />
+      <module name="sample09_MVC1_RequestMapping" options="-parameters" />
+      <module name="sample09_MVC1_RequestMapping.main" options="-parameters" />
+      <module name="sample09_MVC1_RequestMapping.test" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+#spring.application.name=demo
+
+spring:
+  application:
+    name: demo
+#tomcat ?? ??
+server:
+  port: 8090

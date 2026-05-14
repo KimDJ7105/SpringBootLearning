@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/demo" />
+    <file type="web" url="file://$PROJECT_DIR$/sample01_Bean2_OtherPackage" />
+    <file type="web" url="file://$PROJECT_DIR$/sample01_Bean_RecommendedPackage" />
+    <file type="web" url="file://$PROJECT_DIR$/sample02_DependencyInjection1_Constructer" />
+    <file type="web" url="file://$PROJECT_DIR$/sample05_external_configuration2_configurationproperties_Validation" />
+    <file type="web" url="file://$PROJECT_DIR$/sample06_profile" />
+    <file type="web" url="file://$PROJECT_DIR$/sample07_DB1_h2_jdbcTemplate" />
+    <file type="web" url="file://$PROJECT_DIR$/sample07_DB2_MySQL_jdbcTemplate" />
+    <file type="web" url="file://$PROJECT_DIR$/sample07_DB3_MySQL_MyBatis1_Basic" />
+    <file type="web" url="file://$PROJECT_DIR$/sample08_Profile_h2_MySQL_prod_dev" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

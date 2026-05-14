@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/testdb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: dhkdTlqfl0509^
+  #schema.sql과 data.sql 관리 가능 (always|never)
+  sql:
+    init:
+      mode: never
+
+#TodoMapper.xml과 DTO 별칭 설정
+mybatis:
+  mapper-locations: com/exam/config/TodoMapper.xml
+  # ,com/exam/config/DeptMapper.xml ...
+  # Mapper 가 많으면 ,를 사용하거나 혹은 com/exam/config/*Mapper.xml 로
+  # Mapper.xml로 끝나는 파일을 전부 지정 가능
+  type-aliases-package: com.exam.dto

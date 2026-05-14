@@ -1,0 +1,12 @@
+#프로파일 설정
+spring:
+  profiles:
+    active: prod
+
+#TodoMapper.xml과 DTO 별칭 설정
+mybatis:
+  mapper-locations: com/exam/config/TodoMapper.xml
+  type-aliases-package: com.exam.dto
+ # 포트번호 설정
+server:
+  port: 8080
