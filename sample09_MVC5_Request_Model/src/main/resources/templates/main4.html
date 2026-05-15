@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>main4</h1>
+
+<span th:text="${nameList}"></span><br>
+<ul th:each="name : ${nameList}">
+    <li  th:text="${name}"></li>
+</ul>
+
+<ul th:each="name, iterStat : ${nameList}">
+    <li  th:text="${name} + ' , ' + ${iterStat.index}  + ' , ' +  ${iterStat.count}"></li>
+</ul>
+
+</body>
+</html>
