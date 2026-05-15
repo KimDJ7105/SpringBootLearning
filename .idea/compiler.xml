@@ -5,9 +5,15 @@
       <module name="com.exam.demo" target="21" />
       <module name="com.exam.demo.main" target="21" />
       <module name="com.exam.demo.test" target="21" />
+      <module name="com.exam.sample09_MVC2_Request_UserInputHandle" target="21" />
+      <module name="com.exam.sample09_MVC2_Request_UserInputHandle.main" target="21" />
+      <module name="com.exam.sample09_MVC2_Request_UserInputHandle.test" target="21" />
       <module name="demo" target="21" />
       <module name="demo.main" target="21" />
       <module name="demo.test" target="21" />
+      <module name="dsample09_MVC2_Request_UserInputHandleemo" target="21" />
+      <module name="dsample09_MVC2_Request_UserInputHandleemo.main" target="21" />
+      <module name="dsample09_MVC2_Request_UserInputHandleemo.test" target="21" />
       <module name="sample01_Bean2_OtherPackage" target="21" />
       <module name="sample01_Bean2_OtherPackage.main" target="21" />
       <module name="sample01_Bean2_OtherPackage.test" target="21" />
@@ -38,6 +44,33 @@
       <module name="sample04_PostConstruct_PreDestroy" target="21" />
       <module name="sample04_PostConstruct_PreDestroy.main" target="21" />
       <module name="sample04_PostConstruct_PreDestroy.test" target="21" />
+      <module name="sample05_External_configuration1_value" target="21" />
+      <module name="sample05_External_configuration1_value.main" target="21" />
+      <module name="sample05_External_configuration1_value.test" target="21" />
+      <module name="sample05_external_configuration2_configurationproperties" target="21" />
+      <module name="sample05_external_configuration2_configurationproperties.main" target="21" />
+      <module name="sample05_external_configuration2_configurationproperties.test" target="21" />
+      <module name="sample05_external_configuration2_configurationproperties_Validation" target="21" />
+      <module name="sample05_external_configuration2_configurationproperties_Validation.main" target="21" />
+      <module name="sample05_external_configuration2_configurationproperties_Validation.test" target="21" />
+      <module name="sample06_profile" target="21" />
+      <module name="sample06_profile.main" target="21" />
+      <module name="sample06_profile.test" target="21" />
+      <module name="sample07_DB1_h2_jdbcTemplate" target="21" />
+      <module name="sample07_DB1_h2_jdbcTemplate.main" target="21" />
+      <module name="sample07_DB1_h2_jdbcTemplate.test" target="21" />
+      <module name="sample07_DB2_MySQL_jdbcTemplate" target="21" />
+      <module name="sample07_DB2_MySQL_jdbcTemplate.main" target="21" />
+      <module name="sample07_DB2_MySQL_jdbcTemplate.test" target="21" />
+      <module name="sample07_DB3_MySQL_MyBatis1_Basic" target="21" />
+      <module name="sample07_DB3_MySQL_MyBatis1_Basic.main" target="21" />
+      <module name="sample07_DB3_MySQL_MyBatis1_Basic.test" target="21" />
+      <module name="sample07_DB3_MySQL_MyBatis2_MapperInterface" target="21" />
+      <module name="sample07_DB3_MySQL_MyBatis2_MapperInterface.main" target="21" />
+      <module name="sample07_DB3_MySQL_MyBatis2_MapperInterface.test" target="21" />
+      <module name="sample08_Profile_h2_MySQL_prod_dev" target="21" />
+      <module name="sample08_Profile_h2_MySQL_prod_dev.main" target="21" />
+      <module name="sample08_Profile_h2_MySQL_prod_dev.test" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -45,9 +78,15 @@
       <module name="com.exam.demo" options="-parameters" />
       <module name="com.exam.demo.main" options="-parameters" />
       <module name="com.exam.demo.test" options="-parameters" />
+      <module name="com.exam.sample09_MVC2_Request_UserInputHandle" options="-parameters" />
+      <module name="com.exam.sample09_MVC2_Request_UserInputHandle.main" options="-parameters" />
+      <module name="com.exam.sample09_MVC2_Request_UserInputHandle.test" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo.main" options="-parameters" />
       <module name="demo.test" options="-parameters" />
+      <module name="dsample09_MVC2_Request_UserInputHandleemo" options="-parameters" />
+      <module name="dsample09_MVC2_Request_UserInputHandleemo.main" options="-parameters" />
+      <module name="dsample09_MVC2_Request_UserInputHandleemo.test" options="-parameters" />
       <module name="sample01_Bean2_OtherPackage" options="-parameters" />
       <module name="sample01_Bean2_OtherPackage.main" options="-parameters" />
       <module name="sample01_Bean2_OtherPackage.test" options="-parameters" />
@@ -108,6 +147,18 @@
       <module name="sample09_MVC1_RequestMapping" options="-parameters" />
       <module name="sample09_MVC1_RequestMapping.main" options="-parameters" />
       <module name="sample09_MVC1_RequestMapping.test" options="-parameters" />
+      <module name="sample09_MVC2_Request_UserInputHandle" options="-parameters" />
+      <module name="sample09_MVC2_Request_UserInputHandle.main" options="-parameters" />
+      <module name="sample09_MVC2_Request_UserInputHandle.test" options="-parameters" />
+      <module name="sample09_MVC3_Request_getHeader" options="-parameters" />
+      <module name="sample09_MVC3_Request_getHeader.main" options="-parameters" />
+      <module name="sample09_MVC3_Request_getHeader.test" options="-parameters" />
+      <module name="sample09_MVC4_Cookie" options="-parameters" />
+      <module name="sample09_MVC4_Cookie.main" options="-parameters" />
+      <module name="sample09_MVC4_Cookie.test" options="-parameters" />
+      <module name="sample09_MVC5_Request_Model" options="-parameters" />
+      <module name="sample09_MVC5_Request_Model.main" options="-parameters" />
+      <module name="sample09_MVC5_Request_Model.test" options="-parameters" />
     </option>
   </component>
 </project>

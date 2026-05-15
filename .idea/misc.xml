@@ -13,6 +13,7 @@
     <file type="web" url="file://$PROJECT_DIR$/sample07_DB3_MySQL_MyBatis1_Basic" />
     <file type="web" url="file://$PROJECT_DIR$/sample08_Profile_h2_MySQL_prod_dev" />
     <file type="web" url="file://$PROJECT_DIR$/sample09_MVC1_RequestMapping" />
+    <file type="web" url="file://$PROJECT_DIR$/sample09_MVC2_Request_UserInputHandle" />
   </component>
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
   <component name="ProjectRootManager">
