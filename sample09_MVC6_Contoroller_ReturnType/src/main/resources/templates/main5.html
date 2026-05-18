@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>main5</h1>
+
+<p th:text="${userid}"></p>
+
+<div th:object="${dto}">
+    <p th:text="*{userid}"></p>
+    <p th:text="*{password}"></p>
+</div>
+
+<ul th:each="l : ${list}">
+    <li  th:text="${l}"></li>
+</ul>
+
+<ul th:each="dto : ${dtoList}">
+    <li  th:text="${dto.userid}"></li>
+    <li  th:text="${dto.password}"></li>
+</ul>
+
+</body>
+</html>

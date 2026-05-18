@@ -71,6 +71,9 @@
       <module name="sample08_Profile_h2_MySQL_prod_dev" target="21" />
       <module name="sample08_Profile_h2_MySQL_prod_dev.main" target="21" />
       <module name="sample08_Profile_h2_MySQL_prod_dev.test" target="21" />
+      <module name="sample09_MVC5_Request_Model" target="21" />
+      <module name="sample09_MVC5_Request_Model.main" target="21" />
+      <module name="sample09_MVC5_Request_Model.test" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -144,6 +147,9 @@
       <module name="sample08_Profile_h2_MySQL_prod_dev" options="-parameters" />
       <module name="sample08_Profile_h2_MySQL_prod_dev.main" options="-parameters" />
       <module name="sample08_Profile_h2_MySQL_prod_dev.test" options="-parameters" />
+      <module name="sample09_MVC10_Interceptor" options="-parameters" />
+      <module name="sample09_MVC10_Interceptor.main" options="-parameters" />
+      <module name="sample09_MVC10_Interceptor.test" options="-parameters" />
       <module name="sample09_MVC1_RequestMapping" options="-parameters" />
       <module name="sample09_MVC1_RequestMapping.main" options="-parameters" />
       <module name="sample09_MVC1_RequestMapping.test" options="-parameters" />
@@ -159,6 +165,24 @@
       <module name="sample09_MVC5_Request_Model" options="-parameters" />
       <module name="sample09_MVC5_Request_Model.main" options="-parameters" />
       <module name="sample09_MVC5_Request_Model.test" options="-parameters" />
+      <module name="sample09_MVC6_Contoroller_ReturnType" options="-parameters" />
+      <module name="sample09_MVC6_Contoroller_ReturnType.main" options="-parameters" />
+      <module name="sample09_MVC6_Contoroller_ReturnType.test" options="-parameters" />
+      <module name="sample09_MVC7_JSON_Transfer" options="-parameters" />
+      <module name="sample09_MVC7_JSON_Transfer.main" options="-parameters" />
+      <module name="sample09_MVC7_JSON_Transfer.test" options="-parameters" />
+      <module name="sample09_MVC8_Redirect_Forward" options="-parameters" />
+      <module name="sample09_MVC8_Redirect_Forward.main" options="-parameters" />
+      <module name="sample09_MVC8_Redirect_Forward.test" options="-parameters" />
+      <module name="sample09_MVC9_Filter" options="-parameters" />
+      <module name="sample09_MVC9_Filter.main" options="-parameters" />
+      <module name="sample09_MVC9_Filter.test" options="-parameters" />
+      <module name="sample10_ExceptionHandler1_global" options="-parameters" />
+      <module name="sample10_ExceptionHandler1_global.main" options="-parameters" />
+      <module name="sample10_ExceptionHandler1_global.test" options="-parameters" />
+      <module name="sample10_ExceptionHandler1_local" options="-parameters" />
+      <module name="sample10_ExceptionHandler1_local.main" options="-parameters" />
+      <module name="sample10_ExceptionHandler1_local.test" options="-parameters" />
     </option>
   </component>
 </project>
