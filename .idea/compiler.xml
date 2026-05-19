@@ -71,9 +71,36 @@
       <module name="sample08_Profile_h2_MySQL_prod_dev" target="21" />
       <module name="sample08_Profile_h2_MySQL_prod_dev.main" target="21" />
       <module name="sample08_Profile_h2_MySQL_prod_dev.test" target="21" />
+      <module name="sample09_MVC10_Interceptor" target="21" />
+      <module name="sample09_MVC10_Interceptor.main" target="21" />
+      <module name="sample09_MVC10_Interceptor.test" target="21" />
+      <module name="sample09_MVC1_RequestMapping" target="21" />
+      <module name="sample09_MVC1_RequestMapping.main" target="21" />
+      <module name="sample09_MVC1_RequestMapping.test" target="21" />
+      <module name="sample09_MVC2_Request_UserInputHandle" target="21" />
+      <module name="sample09_MVC2_Request_UserInputHandle.main" target="21" />
+      <module name="sample09_MVC2_Request_UserInputHandle.test" target="21" />
+      <module name="sample09_MVC3_Request_getHeader" target="21" />
+      <module name="sample09_MVC3_Request_getHeader.main" target="21" />
+      <module name="sample09_MVC3_Request_getHeader.test" target="21" />
+      <module name="sample09_MVC4_Cookie" target="21" />
+      <module name="sample09_MVC4_Cookie.main" target="21" />
+      <module name="sample09_MVC4_Cookie.test" target="21" />
       <module name="sample09_MVC5_Request_Model" target="21" />
       <module name="sample09_MVC5_Request_Model.main" target="21" />
       <module name="sample09_MVC5_Request_Model.test" target="21" />
+      <module name="sample09_MVC6_Contoroller_ReturnType" target="21" />
+      <module name="sample09_MVC6_Contoroller_ReturnType.main" target="21" />
+      <module name="sample09_MVC6_Contoroller_ReturnType.test" target="21" />
+      <module name="sample09_MVC7_JSON_Transfer" target="21" />
+      <module name="sample09_MVC7_JSON_Transfer.main" target="21" />
+      <module name="sample09_MVC7_JSON_Transfer.test" target="21" />
+      <module name="sample09_MVC8_Redirect_Forward" target="21" />
+      <module name="sample09_MVC8_Redirect_Forward.main" target="21" />
+      <module name="sample09_MVC8_Redirect_Forward.test" target="21" />
+      <module name="sample09_MVC9_Filter" target="21" />
+      <module name="sample09_MVC9_Filter.main" target="21" />
+      <module name="sample09_MVC9_Filter.test" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -183,6 +210,15 @@
       <module name="sample10_ExceptionHandler1_local" options="-parameters" />
       <module name="sample10_ExceptionHandler1_local.main" options="-parameters" />
       <module name="sample10_ExceptionHandler1_local.test" options="-parameters" />
+      <module name="sample11_UserInput2_Validated_ControllerAdvice" options="-parameters" />
+      <module name="sample11_UserInput2_Validated_ControllerAdvice.main" options="-parameters" />
+      <module name="sample11_UserInput2_Validated_ControllerAdvice.test" options="-parameters" />
+      <module name="sample11_UserInput_Valide_BindResult" options="-parameters" />
+      <module name="sample11_UserInput_Valide_BindResult.main" options="-parameters" />
+      <module name="sample11_UserInput_Valide_BindResult.test" options="-parameters" />
+      <module name="sample12_Thymeleaf" options="-parameters" />
+      <module name="sample12_Thymeleaf.main" options="-parameters" />
+      <module name="sample12_Thymeleaf.test" options="-parameters" />
     </option>
   </component>
 </project>

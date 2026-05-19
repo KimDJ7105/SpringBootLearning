@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" th:href="@{css/test.css}">
+</head>
+<body>
+<h1>경로 (링크)</h1>
+<p>Hello</p>
+<img th:src="@{images/my.png}" width="100" height="100"><br>
+<a th:href="@{http://google.com}">구글</a><br>
+<a th:href="@{http://naver.com}">네이버</a><br>
+<a th:href="@{http://daum.com}">다음</a><br>
+<a th:href="@{m4-1}">m4-1(상대)</a><br>
+<a th:href="@{/m4-1(id='aaa',pw='1234')}">m4-1(절대 : 컨텍스트명 뒤의 /)</a><br>
+
+<form th:action="@{m4-2}" method="get">
+    아이디:<input type="text" name="userid" required><br>
+    비밀번:<input type="text" name="password" required><br>
+    <input type="submit" value="로그인">
+</form>
+
+</body>
+</html>

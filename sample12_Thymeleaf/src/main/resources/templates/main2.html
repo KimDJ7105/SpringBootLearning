@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Scope에 저장하고 html에 출력하기</h1>
+<h2>중첩 형태로 접근</h2>
+loginDTO : <p th:text="${login}"></p>
+loginDTO : <p th:text="${login.toString()}"></p>
+userid : <p th:text="${login.userid}"></p>
+password : <p th:text="${login.password}"></p>
+<h2>객체 속성으로 접근</h2>
+<dic th:object="${login}">
+    아이디:<p th:text="*{userid}"></p>
+    비번:<p th:text="*{password}"></p>
+</dic>
+</body>
+</html>

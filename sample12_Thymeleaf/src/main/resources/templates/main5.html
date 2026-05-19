@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>유틸리티</h1>
+<h2>날짜 관련</h2>
+today: <p th:text="${#temporals.format(today, 'dd/MM/yyyy')}"> </p>
+<h2>문자열 관련</h2>
+<p th:text="${#strings.toUpperCase(username)}"></p>
+<p th:text="${#strings.length(username)}"></p>
+<p th:text="${#strings.substring(username,3,6)}"></p>
+<h2>숫자 관련</h2>
+<p th:text="${#numbers.formatInteger(price,3,'POINT')}"></p>
+<p th:text="${#numbers.formatInteger(price,3,'COMMA')}"></p>
+<p th:text="${#numbers.formatCurrency(price)}"></p>
+<h2>자료구조 관련</h2>
+size:<p th:text="${#lists.size(myList)}"></p>
+isEmpty:<p th:text="${#lists.isEmpty(myList)}"></p>
+Contains:<p th:text="${#lists.contains(myList, 'A')}"></p>
+</body>
+</html>

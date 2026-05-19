@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Write</title>
+</head>
+<body>
+<h1>Write</h1>
+<p th:if="${message}" th:text="${message}"></p>
+<form th:action="@{/add-todo}" method="post">
+    아이디:<input type="text" name="userid"><br>
+    할일:<input type="text" name="description"><br>
+    목표날짜:<input type="date" name="targetDate"><br>
+    <input type="submit" value="저장">
+</form>
+</body>
+</html>

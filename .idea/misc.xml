@@ -14,6 +14,7 @@
     <file type="web" url="file://$PROJECT_DIR$/sample08_Profile_h2_MySQL_prod_dev" />
     <file type="web" url="file://$PROJECT_DIR$/sample09_MVC1_RequestMapping" />
     <file type="web" url="file://$PROJECT_DIR$/sample09_MVC2_Request_UserInputHandle" />
+    <file type="web" url="file://$PROJECT_DIR$/sample11_UserInput_Valide_BindResult" />
   </component>
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
   <component name="ProjectRootManager">

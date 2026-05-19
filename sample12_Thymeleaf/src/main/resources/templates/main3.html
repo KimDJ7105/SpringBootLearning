@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .xxx{
+            color:red;
+        }
+        .yyy{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+<h1>제어문 처리 : if, switch 3항 연산, 반복문</h1>
+<h2>조건문</h2>
+<p th:if="${login.userid == '홍길동'}">
+    참1
+</p>
+<p th:if="${login2.userid != null}">
+    참2
+</p>
+<h2>3항 연산자</h2>
+<p th:text="${login.userid == '홍길동'}? '참':'거짓' "></p>
+<p th:class="${login.userid == '홍길동'}? 'xxx':'yyy'">css 적용된 텍스트</p>
+<h2>switch</h2>
+    switch(변수){
+        case 값: 문장; break;
+        case 값: 문장; break;
+        default: 문장;
+    }
+
+<div th:switch="${login.userid}">
+    <p th:case="홍길동">홍길동입니다.</p>
+    <p th:case="이순신">이순신입니다.</p>
+    <p th:case="유관순">유관순입니다.</p>
+    <p th:case="*">default 입니다.</p>
+</div>
+
+<h2>반복문</h2>
+<ul th:each="dto : ${myList}">
+    <li th:text="${dto.userid} + '  ' + ${dto.password}"></li>
+</ul>
+<h2>반복문2 - index count first, last</h2>
+<ul th:each="dto, yyy : ${myList}">
+    <li th:text="${dto.userid} + '  ' + ${dto.password} + '  ' + ${yyy.index} + '   ' +  ${yyy.first}"></li>
+</ul>
+</body>
+</html>
