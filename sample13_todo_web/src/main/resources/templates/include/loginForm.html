@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <div th:fragment="content">
+      <form th:object="${logindto}" th:action="@{/login}" method="post">
+          <input type="hidden" name="username" value="dummy">
+          <p th:if="${errorMessage}" th:text="${errorMessage}"></p>
+          아이디 :<input type="text" th:field="*{userid}"><br>
+           <p th:if="${#fields.hasErrors('userid')}" th:errors="*{userid}"></p>
+          비밀번호 :<input type="text" th:field="*{password}"><br>
+           <p th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></p>
+          <input type="submit" value="로그인">
+      </form>
+  </div>
+</body>
+</html>

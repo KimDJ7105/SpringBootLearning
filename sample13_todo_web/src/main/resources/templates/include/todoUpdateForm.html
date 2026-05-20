@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <div th:fragment="content">
+      <form th:object="${todo}" th:action="@{/todo-update}" method="post">
+          <input type="hidden" th:field="*{id}">
+          할일 :<input type="text" th:field="*{description}"><br>
+           <p th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></p>
+          목표일 :<input type="date" th:field="*{targetDate}"><br>
+           <p th:if="${#fields.hasErrors('targetDate')}" th:errors="*{targetDate}"></p>
+          완료여부 :<input type="checkbox" th:field="*{done}"><br>
+          <input type="submit" value="수정">
+      </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    url: jdbc:mysql://localhost:3306/testdb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: dhkdTlqfl0509^
+  #schema.sql과 data.sql 관리 가능 (always|never)
+  sql:
+    init:
+      mode: always
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+#TodoMapper.xml과 DTO 별칭 설정
+mybatis:
+  mapper-locations: com/exam/mapper/*Mapper.xml
+  type-aliases-package: com.exam.dto
+  configuration:
+    map-underscore-to-camel-case: true
+
+#개발단계에서 SQL 확인
+loggin:
+  level:
+    com.exam.mapper : DRBUG

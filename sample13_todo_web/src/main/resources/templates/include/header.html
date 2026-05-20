@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <div th:fragment="header">
+      <span th:if="${session.loginInfo == null}">
+        <a th:href="@{/login}">로그인</a>
+        <a th:href="@{/signup}">회원가입</a>
+      </span>
+      <span th:if="${session.loginInfo != null}">
+        <a th:href="@{/logout}">로그아웃</a>
+        <a th:href="@{/todo-list}">Todo</a>
+      </span>
+  </div>
+</body>
+</html>
