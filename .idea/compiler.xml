@@ -219,6 +219,9 @@
       <module name="sample12_Thymeleaf" options="-parameters" />
       <module name="sample12_Thymeleaf.main" options="-parameters" />
       <module name="sample12_Thymeleaf.test" options="-parameters" />
+      <module name="sample13_todo2_SpringSecurity" options="-parameters" />
+      <module name="sample13_todo2_SpringSecurity.main" options="-parameters" />
+      <module name="sample13_todo2_SpringSecurity.test" options="-parameters" />
       <module name="sample13_todo_web" options="-parameters" />
       <module name="sample13_todo_web.main" options="-parameters" />
       <module name="sample13_todo_web.test" options="-parameters" />

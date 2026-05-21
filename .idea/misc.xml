@@ -15,6 +15,7 @@
     <file type="web" url="file://$PROJECT_DIR$/sample09_MVC1_RequestMapping" />
     <file type="web" url="file://$PROJECT_DIR$/sample09_MVC2_Request_UserInputHandle" />
     <file type="web" url="file://$PROJECT_DIR$/sample11_UserInput_Valide_BindResult" />
+    <file type="web" url="file://$PROJECT_DIR$/sample13_todo2_SpringSecurity" />
     <file type="web" url="file://$PROJECT_DIR$/sample13_todo_web" />
   </component>
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
