@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.34/ec547ef414ab1d2c040118fb9c1c265ada63af14/lombok-1.18.34.jar" />
+        </processorPath>
+        <module name="sample14_REST4_ExeptionHandle.main" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.exam.demo" target="21" />
       <module name="com.exam.demo.main" target="21" />
@@ -101,6 +111,21 @@
       <module name="sample09_MVC9_Filter" target="21" />
       <module name="sample09_MVC9_Filter.main" target="21" />
       <module name="sample09_MVC9_Filter.test" target="21" />
+      <module name="sample10_ExceptionHandler1_global" target="21" />
+      <module name="sample10_ExceptionHandler1_global.main" target="21" />
+      <module name="sample10_ExceptionHandler1_global.test" target="21" />
+      <module name="sample10_ExceptionHandler1_local" target="21" />
+      <module name="sample10_ExceptionHandler1_local.main" target="21" />
+      <module name="sample10_ExceptionHandler1_local.test" target="21" />
+      <module name="sample11_UserInput2_Validated_ControllerAdvice" target="21" />
+      <module name="sample11_UserInput2_Validated_ControllerAdvice.main" target="21" />
+      <module name="sample11_UserInput2_Validated_ControllerAdvice.test" target="21" />
+      <module name="sample11_UserInput_Valide_BindResult" target="21" />
+      <module name="sample11_UserInput_Valide_BindResult.main" target="21" />
+      <module name="sample11_UserInput_Valide_BindResult.test" target="21" />
+      <module name="sample12_Thymeleaf" target="21" />
+      <module name="sample12_Thymeleaf.main" target="21" />
+      <module name="sample12_Thymeleaf.test" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -225,6 +250,18 @@
       <module name="sample13_todo_web" options="-parameters" />
       <module name="sample13_todo_web.main" options="-parameters" />
       <module name="sample13_todo_web.test" options="-parameters" />
+      <module name="sample14_REST" options="-parameters" />
+      <module name="sample14_REST.main" options="-parameters" />
+      <module name="sample14_REST.test" options="-parameters" />
+      <module name="sample14_REST2_ApiResponse" options="-parameters" />
+      <module name="sample14_REST2_ApiResponse.main" options="-parameters" />
+      <module name="sample14_REST2_ApiResponse.test" options="-parameters" />
+      <module name="sample14_REST3_ResponseEntity_ApiResponse" options="-parameters" />
+      <module name="sample14_REST3_ResponseEntity_ApiResponse.main" options="-parameters" />
+      <module name="sample14_REST3_ResponseEntity_ApiResponse.test" options="-parameters" />
+      <module name="sample14_REST4_ExeptionHandle" options="-parameters" />
+      <module name="sample14_REST4_ExeptionHandle.main" options="-parameters" />
+      <module name="sample14_REST4_ExeptionHandle.test" options="-parameters" />
     </option>
   </component>
 </project>

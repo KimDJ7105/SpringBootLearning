@@ -17,6 +17,8 @@
     <file type="web" url="file://$PROJECT_DIR$/sample11_UserInput_Valide_BindResult" />
     <file type="web" url="file://$PROJECT_DIR$/sample13_todo2_SpringSecurity" />
     <file type="web" url="file://$PROJECT_DIR$/sample13_todo_web" />
+    <file type="web" url="file://$PROJECT_DIR$/sample14_REST" />
+    <file type="web" url="file://$PROJECT_DIR$/sample14_REST2_ApiResponse" />
   </component>
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
   <component name="ProjectRootManager">
